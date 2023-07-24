@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nature {
+    display: flex;
+    gap: 35px;
+    margin-left: 195px;
+    margin-top: 110px;
+}
+.citys {
+    display: flex;
+    gap: 35px;
+    flex-wrap: wrap;
+    margin-left: 195px;
+    margin-top: 100px;
+}
+.childImg {
+    height: 154px;
+    width: 300px;
+}
+img.parentImg {
+    height: 300px;
+    width: 300px;
+}
+.active{
+    filter: blur(0px);
+    border: solid 3px rgb(206, 0, 0); 
+}
+.natureView{
+    display: none;
+}
+img{
+    height: 154px;
+    width: 300px;
+}
+.page2{
+    display: none;
+}
+img.parent {
+    width: 800px;
+    height: 400px;
+    margin-left: 245px;
+    margin-top: 40px;
+}
+img.childIMGS{
+    height: 150px;
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.page2{
+    background-color: black;
+}
+i.fa-regular.fa-angles-right {
+    color: white;
+    font-weight: bolder;
+    font-size: 35px;
+    position: relative;
+    left: 50px;
+    bottom: 185px;
+}
+i.fa-solid.fa-angles-left {
+    color: white;
+    font-weight: bolder;
+    font-size: 35px;
+    position: relative;
+    left: 180px;
+    bottom: 185px;
+}
+i.fa-solid.fa-circle-xmark {
+    color: white;
+    font-size: 25px;
+    position: relative;
+    left: 1255px;
+    top: 26px;
+}
